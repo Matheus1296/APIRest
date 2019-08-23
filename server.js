@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(express.json());
 app.use(cors());
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-88c8g.mongodb.net/nodeapi?retryWrites=true&w=majority',{
+mongoose.connect('CONNECT MONGODB',{
     useNewUrlParser:true,
 });
 
